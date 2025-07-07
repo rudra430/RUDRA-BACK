@@ -30,12 +30,12 @@ except ModuleNotFoundError:
         print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
         os.system('python Rudra.py')  
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100007946797233')
+        os.system('xdg-open https://www.facebook.com/rudra.singh.237097')
 
 
 #____________UA-SETUP_______#
 def RUDRA_SINGH():
-    ua = '[FBAN/EMA;FBLC/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/EMA;FBAV/461.0.0.15.118;FBCX/modulariab;FBDM/{density=3.0,width=1080,height=2165};FBLC/it_IT;FBRV/526139383;FBCR/TIM;FBMF/OnePlus;FBBD/OnePlus;FBPN/com.facebook.katana;FBDV/A0001;FBSV/9;FBOP/1;FBCA/arm64-v8a:;]'
+    ua = '[FBAN/EMA;FBLC/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/EMA;FBLC/en_US;FBAV/461.0.0.15.118;FBCX/modulariab;FBDM/{density=3.0,width=1080,height=2165};FBLC/it_IT;FBRV/526139383;FBCR/TIM;FBMF/OnePlus;FBBD/OnePlus;FBPN/com.facebook.katana;FBDV/A0001;FBSV/9;FBOP/1;FBCA/arm64-v8a:;]'
     return ua
 #__________END_________#
 
@@ -69,13 +69,13 @@ else:
 
 ugen1=[]
 for agent in range(10000):
-        aa='Mozilla/5.0 (Linux; Android 14;Infinix X6716B Build/UP1A.231005.007; wv)'
+        aa='Mozilla/5.0 (Linux; Android 10;'
         b=random.choice(['6','7','8','9','10','11','12'])
         c='en-us; 10; T-Mobile myTouch 3G Slide Build/'
         d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
         e=random.randrange(1, 999)
         f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/137.0.7151.116'
+        g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.96'
         h=random.randrange(73,100)
         i='0'
         j=random.randrange(4200,4900)
@@ -115,7 +115,7 @@ try:
  import requests
 except:os.system("pip uninstall requests -y;pip install requests")
 print('\033[1;91m[\033[1;97m-\033[1;91m] \033[1;92mChecking For Update. . . .')
-os.system(f'xdg-open https://chat.whatsapp.com/DeVzVK58tsV0eolWV1QcVR')
+os.system(f'xdg-open https://chat.whatsapp.com/FHHs7vrWFiaG06KS29YuMt?mode=ac_t')
 time.sleep(2)
 os.system('git pull --quiet 2>/dev/null')
 bit = platform.architecture()[0]
@@ -167,12 +167,12 @@ from io import BytesIO
 
 def key():
     clear()
-    key = "MR-RudraA{SHAPTAR}|•|✓" + str(os.geteuid()) + str(os.getlogin()).replace('u0_a', '')
+    key = "MR-RudraA{RUDRA}|•|✓" + str(os.geteuid()) + str(os.getlogin()).replace('u0_a', '')
     print(f" \033[1;32m TOOL IS PAID YOU NEED APPROVAL ")
     print(f" \033[1;32m Your Login Key is  : " + key)
     buffer = BytesIO()
     curl = pycurl.Curl()
-    curl.setopt(curl.URL, "https://raw.githubusercontent.com/Silentboy302/Approval/main/Approve.txt")
+    curl.setopt(curl.URL, "https://github.com/rudra430/RUDRA-BACK")
     curl.setopt(curl.WRITEDATA, buffer)
     curl.perform()
     curl.close()
@@ -184,7 +184,7 @@ def key():
         print(f"\033[1;32m YOUR KEY NOT APPROVED CONTACT ADMIN")
         print(f"\033[1;32m 3 DAY APPROVE RS 150")
         print(f"\033[1;32m 6 DAY APPROVE RS 300")
-        print(" \33[37;44m\t WELCOME TO SHAPTAR TOOL AND ENJOY \33[0;m")
+        print(" \33[37;44m\t WELCOME TO RUDRA TOOL AND ENJOY \33[0;m")
         print('\33[1;37m====================================================')     
         # linex()
         print(f"\033[1;32m [A] CONTACT WITH ME ON WHATSAPP")
@@ -194,13 +194,13 @@ def key():
         if adi in ['A', 'a', '01', '1']:
             nm = input(f"\033[1;32m ENTER YOUR NAME : ")
             wp = input(f"\033[1;32m ENTER YOUR WHATSAPP NUMBER :")
-            url_wa = "https://api.whatsapp.com/send?phone=++994402079253&text="
+            url_wa = "https://api.whatsapp.com/send?phone=++919125065988&text="
             tk = (f'Hello%20Sir%20!%20Please%20Approve%20My%20Tool%20Login%20Key%20:%20My%20Name%20is%20'
                   + nm + '%20and%20whatsapp%20number%20is%20%20:' + wp + '%20Here%20my%20key%20' + key)
             subprocess.check_output(["am", "start", url_wa + tk])
             time.sleep(2)
         else:
-            os.system('xdg-open https://www.facebook.com/profile.php?id=100007946797233')
+            os.system('xdg-open https://www.facebook.com/rudra.singh.237097')
 #____________________________________________________________END_____________________________________________#      
             
 #_________Year checker_________#

